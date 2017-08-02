@@ -43,6 +43,8 @@ namespace TshockLogs
 
         internal void Write(string path)
         {
+            string dir = Path.GetDirectoryName(path);
+            Directory.CreateDirectory(dir);
             using (var fs = new FileStream(path, FileMode.Create, FileAccess.Write, FileShare.Write))
             {
                 Write(fs);
