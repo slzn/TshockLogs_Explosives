@@ -25,8 +25,7 @@ TshockLogs_Explosives_Config.json
     "BouncyDynamite",
     "StickyDynamite",
     "BombFish",
-    "Explosives",
-    "ExplosiveBunny"
+    "Explosives"
   ]
 }
 ```
