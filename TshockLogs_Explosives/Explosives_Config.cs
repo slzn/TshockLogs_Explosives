@@ -16,7 +16,7 @@ namespace TshockLogs
         [JsonProperty]
         public string[] Explosives = { "Bomb", "BouncyBomb" , "StickyBomb",
                                         "Dynamite", "BouncyDynamite", "StickyDynamite",
-                                        "BombFish", "Explosives", "ExplosiveBunny"};
+                                        "BombFish", "Explosives"};
 
         internal static Explosives_Config Read(string path)
         {
